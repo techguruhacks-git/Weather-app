@@ -3,21 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Weather App</title>
+    <title>My First Weather App</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="card">
         <div class="search">
             <input type="text" name="" id="search-input" placeholder="Enter Your City Name" spellcheck="false">
-            <button class="btn"><img src="images/search.png" alt="search-icon" ></button>
+            <button class="btn"><img src="search.png" alt="search-icon" ></button>
+        </div>
+        <div class="error">
+            <p>Invalid City Name</p>
         </div>
         <div class="weather-details">
             <img src="weather-image.png" class="weather-image" >
-            <h1 class="temperature-details">22c</h1>
-            <h3 class="city-name">New York</h3>
+            <h1 class="temperature-details">22 °C</h1>
+            <h3 class="city">New York </h3>
+            <h3><img src="humidity-img.png" alt="" class="humidity-img"> </h3>
+            <p class="humidity"> 50% </p>
+            <p>Humidity</p>
+        </div>
+        <div class="wind-speed">
+            <img src="wind-speed.png" alt="">
+            <p class="wind">20km/h</p>
+            <p>Wind Speed</p>
         </div>
     </div>
+    <h1 class="highseas">Made for HackClub Highseas</h1>
 </body>
 <script src="script.js"></script>
+
+
 </html>
